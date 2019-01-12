@@ -50,6 +50,15 @@ __Have a question?__ Please, do not hesitate to contact us at https://fb.me/upla
 
 -----
 
+## Handy links that might help you
+
+0. JS fundamentals - https://www.codecademy.com/learn/introduction-to-javascript
+1. Intro to React - https://reactjs.org/tutorial/tutorial.html
+2. ES6 - https://medium.freecodecamp.org/want-to-learn-es6-take-this-free-23-part-course-and-become-a-javascript-ninja-55002db1ff74
+3. How to Learn React — A roadmap from beginner to advanced - https://medium.freecodecamp.org/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6
+
+--- 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Environment
