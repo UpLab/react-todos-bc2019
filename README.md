@@ -12,7 +12,7 @@ In the daily life, programmers should fix bugs before adding features. Who will 
 
 Tasks list is a list of new features that should be added to the working application. You can choose an order, pick only the features that you can implement. Please take a note the different tasks have different number of points. 
 
-__Important__: partial solutions will not count. Solutions with bugs will not count - test your code.
+__Important__: partial task solution doesn't count. Solutions with bugs doesn't count - test your code.
 
 ## How to work on your assignment
 
