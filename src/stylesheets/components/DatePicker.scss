@@ -1,0 +1,49 @@
+@import '~react-dates/lib/css/_datepicker.css';
+
+.DateInput, .DateInput_input, .SingleDatePickerInput {
+  background-color: transparent;
+  color: #9A9A9A;
+}
+
+.SingleDatePickerInput_calendarIcon_svg, .SingleDatePickerInput_clearDate_svg {
+  fill: #9A9A9A;
+}
+
+.SingleDatePickerInput_clearDate {
+  margin-top: -1px;
+  &:hover {
+    background: transparent;
+  }
+}
+button:focus {
+  outline: none;
+}
+
+.DateInput_input__focused {
+  border-color: $primary;
+}
+// Will edit everything selected including everything between a range of dates
+// .CalendarDay__selected_span {
+//   background: transparent; //background
+//   color: white; //text
+//   border: none; //default styles include a border
+// }
+ 
+// // Will edit selected date or the endpoints of a range of dates
+// .CalendarDay__selected {
+//   background: blue;
+//   color: white;
+// }
+ 
+// // Will edit when hovered over. _span style also has this property
+// .CalendarDay__selected:hover {
+//   background: orange;
+//   color: white;
+// }
+ 
+// // Will edit when the second date (end date) in a range of dates
+// // is not yet selected. Edits the dates between your mouse and said date
+// .CalendarDay__hovered_span:hover,
+// .CalendarDay__hovered_span {
+//   background: brown;
+// }
