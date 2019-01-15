@@ -1,16 +1,21 @@
-# Todos Test assignment for UpLab Bootcamp 2019
-
+Todos Test Assignment for UpLab Bootcamp 2019
 ## Overview
+Welcome to the UpLab Bootcamp 2019. This is the test assignment for you to get your brains prepared before the course. The number of places is limited, so the purpose of this test assignment is to choose the best candidates that are able to understand and complete tasks of different complexity.
 
-Welcome to the UpLab Bootcamp 2019. This is the test assignment for you to train before the course. The number of places is limited, so the purpose of this test assignment is to choose the best candidates that are able to understand and complete tasks of different difficulty. 
-
-The application is a simple todo list application where you can create your own list that gets saved into your browser memory. Basically, you can add a new task, set a due date for a task, see a list of todos, mark todo as completed, remove todos, see all the todos along with completed.
+The test assignment is a simple todo list application that allows you to create your own list that is saved in your browser memory. 
+The application is supposed to perform the following options:
+- add a new task
+- set a due date for a task
+- see a list of todos
+- mark todo as completed
+- remove todos
+- see all the todos along with completed
 
 ### Structure of the assignment
+In the daily life, programmers should fix bugs before adding features. Who is willing to use an application full of bugs, but with tons of features? That's why it is mandatory to complete all the bugs from the list.
 
-In the daily life, programmers should fix bugs before adding features. Who will use an application full of bugs, but with tons of features? That's why __it is mandatory__ to complete all the bugs from the list.
-
-Tasks list is a list of new features that should be added to the working application. You can choose an order, pick only the features that you can implement. Please take a note the different tasks have different number of points. 
+Tasks list is a list of new features that should be added to the working application. It should allow you to choose an order, pick only the features that you can implement.
+__Please take a note that different tasks have different number of points__.
 
 __Important__: partial task solution doesn't count. Solutions with bugs doesn't count - test your code.
 
