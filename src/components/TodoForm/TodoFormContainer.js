@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import _ from 'lodash';
 import TodoForm from './TodoForm';
 
 export default class TodoFormContainer extends Component {
@@ -21,7 +22,10 @@ export default class TodoFormContainer extends Component {
 
   handleChangeMessage = (e) => this.setState({ message: e.target.value })
 
-  handleChangeDueDate = (dueDate) => this.setState({ dueDate })
+  handleChangeDueDate = (dueDate) => {
+    if ( _.isNil(dueDate) ) dueDate = undefined;
+    this.setState({ dueDate })
+  }
 
   onSubmit = (event) => {
     if (event && event.preventDefault) event.preventDefault();
