@@ -21,7 +21,7 @@ __Important__: partial task solution doesn't count. Solutions with bugs doesn't 
 
 ## How to work on your assignment
 
-1. Create a __private__ mirror of this repo in your GitHub account to avoid exposing your code and invite `brmk` with read access. You can learn how to do it here: https://help.github.com/articles/duplicating-a-repository/
+1. Create a __private__ mirror of this repo in your GitHub account to avoid exposing your code and invite `brmk` as a collaborator (Settings -> Collaborators). You can learn how to do it here: https://help.github.com/articles/duplicating-a-repository/
 2. Setup your environment (please see Environment section for versions in the end of this file)
 3. Install npm dependencies with command `npm i` or `yarn`
 4. Start the app `npm run start` or `yarn start`
