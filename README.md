@@ -3,7 +3,7 @@ Todos Test Assignment for UpLab Bootcamp 2019
 Welcome to the UpLab Bootcamp 2019. This is the test assignment for you to get your brains prepared before the course. The number of places is limited, so the purpose of this test assignment is to choose the best candidates that are able to understand and complete tasks of different complexity.
 
 The test assignment is a simple todo list application that allows you to create your own list that is saved in your browser memory. 
-The application is supposed to perform the following options:
+The application is supposed to perform the following actions:
 - add a new task
 - set a due date for a task
 - see a list of todos
@@ -32,12 +32,6 @@ __Important__: partial task solution doesn't count. Solutions with bugs doesn't 
 __Have a question?__ Please, do not hesitate to contact us at https://fb.me/uplab.life, https://instagr.am/uplab.life or by email hi@uplab.io
 
 ## Assignment
-
-### Bugs (mandatory):
-
-- [ ] B1. New task is not added to the todo list after submit.
-- [ ] B2. It is only possible to submit a new task and pick a due date when the message is short. It should be possible to only submit a new task and pick a due date if the message is at least 3 characters long.
-- [ ] B3. Tasks counter always shows 0, it should display the number of tasks in the list.
 
 ### Tasks (optional):
 

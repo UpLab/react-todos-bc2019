@@ -17,13 +17,13 @@ const TodoForm = ({ onSubmit, message, handleChangeMessage, handleChangeDueDate,
                 onChange={handleChangeDueDate}
                 placeholder={''}
                 noBorder
-                disabled={submittable}
+                disabled={!submittable}
               />
               <Button 
                 type="submit"
                 color="default"
                 onClick={onSubmit}
-                disabled={submittable}
+                disabled={!submittable}
               >
                 {submitButtonLabel}
               </Button>

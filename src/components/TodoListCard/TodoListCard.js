@@ -7,7 +7,7 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 const TodoListCard = ({ todos, actions, title, onToggleItem, onRemoveItem }) => (
   <Card className="card-tasks">
     <CardHeader>
-      <h6 className="title d-inline">{title} ({[].length})</h6>
+      <h6 className="title d-inline">{title} ({todos.length})</h6>
       {/* <p className="card-category d-inline"> today</p> */}
       {
         actions.length > 0 ? (
