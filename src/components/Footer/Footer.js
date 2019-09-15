@@ -27,7 +27,7 @@ class Footer extends React.Component {
               rel="noopener noreferrer"
               target="_blank"
             >
-              UpLab
+              UpLab Software
             </a>
           </div>
         </Container>

@@ -29,7 +29,7 @@ export default class TodoFormContainer extends Component {
 
   onSubmit = (event) => {
     if (event && event.preventDefault) event.preventDefault();
-    const { message, dueDate } = this.state;
+    const { message, dueDate } = this.states;
     this.props.onSubmit({ message, dueDate: dueDate ? dueDate.toDate().getTime() : dueDate });
     this.setState({ ...this.initialState });
   }

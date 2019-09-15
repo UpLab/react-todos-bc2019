@@ -1,40 +1,13 @@
 import React from 'react'
-import { Card, CardHeader, UncontrolledDropdown, DropdownToggle, DropdownItem,CardBody, Table, DropdownMenu} from 'reactstrap';
+import { Card, CardBody, Table } from 'reactstrap';
 import { TodoItem } from 'components';
 import PropTypes from 'prop-types';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import TodoListHeader from './TodoListHeader';
 
 const TodoListCard = ({ todos, actions, title, onToggleItem, onRemoveItem }) => (
   <Card className="card-tasks">
-    <CardHeader>
-      <h6 className="title d-inline">{title} ({todos.length})</h6>
-      {/* <p className="card-category d-inline"> today</p> */}
-      {
-        actions.length > 0 ? (
-          <UncontrolledDropdown>
-            <DropdownToggle
-              caret
-              className="btn-icon"
-              color="link"
-              data-toggle="dropdown"
-              type="button"
-            >
-              <i className="tim-icons icon-settings-gear-63" />
-            </DropdownToggle>
-            <DropdownMenu aria-labelledby="dropdownMenuLink" right>
-              { actions.map(({ title, action }) => (
-                <DropdownItem
-                  onClick={action}
-                  key={title}
-                >
-                  {title}
-                </DropdownItem>
-              )) }
-            </DropdownMenu>
-          </UncontrolledDropdown>
-        ) : null 
-      }
-    </CardHeader>
+    <TodoListHeader title={`${title} (${todos.length})`} actions={actions} />
     <CardBody>
       <div className="table-full-width table-responsive">
         <Table>

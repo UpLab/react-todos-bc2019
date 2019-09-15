@@ -25,27 +25,39 @@ __Important__: partial task solution doesn't count. Solutions with bugs doesn't 
 2. Setup your environment (please see Environment section for versions in the end of this file)
 3. Install npm dependencies with command `npm i` or `yarn`
 4. Start the app `npm run start` or `yarn start`
-5. Please try to have 1 commit per task/bugfix. When you complete your task, do not forget to mark it as completed in the list below. Just put an `x` into the checkbox between braces ( `- [ ]` - unchecked, `- [ x ]` - checked ).
+5. Please try to have 1 commit per task/bugfix. When you complete your task, do not forget to mark it as completed in the list below. Just put an `x` into the checkbox between braces ( `- [ ]` - unchecked, `- [x]` - checked ).
 6. Do not forget to constantly push your changes.
 7. When you finish your assignment, please send an email to hi@uplab.io with the link to your GitHub repo and a list of finished tasks.
+
+We only accept your assignments in the GitHub. Do not send us any zip archives with your projects!
 
 __Have a question?__ Please, do not hesitate to contact us at https://fb.me/uplab.life, https://instagr.am/uplab.life or by email hi@uplab.io
 
 ## Assignment
 
+### Bugs (mandatory):
+
+- [ ] B1. Fix the app crash when adding a new item to the to do list
+
 ### Tasks (optional):
 
-- [ ] T1. The navbar title is too boring. Please think about a unique title for your app and put it to the navbar. Make sure to set the app name to the browser tab title (meta tag title). __2 points__
-- [ ] T2. Change a favicon of the app into something cool. __1 point__
-- [ ] T3. Change format of due date in the new task form to be like "10 Jan 2019". __1 point__
-- [ ] T4. Change display due date in the todo list to from now format. I.e. "in 3 days", "in 1 day", "in 3 months". __3 points__
-- [ ] T5. In the todo list header you can see a cog icon with the dropdown options (currently it has "Show open" and "Show all" buttons). Add a new option that will mark all todos as completed. __5 points__
-- [ ] T6. Highlight due dates in the todo list with different colors. __4 points__ Requirements:
+- [ ] T1. Change a favicon of the app into something cool. __1 point__
+- [ ] T2. Integrate a https://www.npmjs.com/package/react-confirm-alert and ask a user his confirmation before deleting the todo item (note: deleting is not completing!) __4 points__
+- [ ] T3. In the todo list header you can see a cog icon with the dropdown options (currently it has "Show open" and "Show all" buttons). Add a new option that will mark all todos as completed. __5 points__
+- [ ] T4. In the todo list header you can see a cog icon with the dropdown options (currently it has "Show open" and "Show all" buttons). Add a new option that will show closed tasks. __3 points__
+- [ ] T5. Highlight due dates in the todo list with different colors. __4 points__ Requirements:
 * Green - the task's due date is 2+ days from today or the task is already completed.
 * Yellow - the task's due date is <2 days from today or today
 * Red - the task's due date has already passed
-- [ ] T7. Reorder todos in the list with drag'n'drop __10 points__
-- [ ] T8. In the todo list header you can see a cog icon with the dropdown options (currently it has "Show open" and "Show all" buttons). Add a new option that will show closed tasks. __3 points__
+- [ ] T6. Reorder todos in the list with drag'n'drop __10 points__ Links:
+* https://github.com/atlassian/react-beautiful-dnd
+* https://egghead.io/lessons/react-reorder-a-list-with-react-beautiful-dnd
+- [ ] T7. Deploy your demo app to any server/service __4 points__ Links:
+* There are many options here https://create-react-app.dev/docs/deployment#zeit-now-https-zeitco
+* http://netlify.com
+* https://zeit.co/
+
+__Note:__ you can do some extra stuff if you want. Please write about it somewhere and we will add extra points to your application!
 
 -----
 
