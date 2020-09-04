@@ -10,7 +10,7 @@
     "lodash": "4.17.11",
     "lowdb": "1.0.0",
     "moment": "2.23.0",
-    "node-sass": "4.11.0",
+    "node-sass": "4.13.1",
     "react": "16.7.0",
     "react-addons-css-transition-group": "15.6.2",
     "react-dates": "18.3.1",
